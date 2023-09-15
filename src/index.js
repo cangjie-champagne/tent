@@ -1044,7 +1044,7 @@ class Tent {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['bow'],
       web: []
     };
     
@@ -1060,19 +1060,19 @@ class Tent {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['earth'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['disaster'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['dagger-axe'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['water'];
           break;
       }
     }
