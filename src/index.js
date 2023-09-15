@@ -812,7 +812,7 @@ class Tent {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['water'],
       web: []
     };
     
@@ -828,19 +828,19 @@ class Tent {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['female'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['bamboo'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['heart'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['one'];
           break;
       }
     }
